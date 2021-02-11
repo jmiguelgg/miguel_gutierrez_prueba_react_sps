@@ -4,7 +4,7 @@ import styles from './styles';
 const Footer = () => {
   return (
     <div style={styles.container}>
-      <h1>Este es el footer de la aplicación</h1>
+      <p style={styles.text}>Todos los derechos recervados © 2021 José Miguel Gutiérrez Guevara</p>
     </div>
   );
 };

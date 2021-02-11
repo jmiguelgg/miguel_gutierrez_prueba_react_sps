@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './styles';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Start project</h1>
+    <div style={styles.mainContainer}>
+      <p>Hola</p>
     </div>
   );
 };
