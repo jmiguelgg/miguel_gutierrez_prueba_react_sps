@@ -15,7 +15,7 @@ const Home = () => {
     })
   }, []);
 
-  const showContacts = (list) => list.map((item) => <ContactRow contact={item} onSelect={(contact) => setContactSelected(contact)} />);
+  const showContacts = (list) => list.map((item) => <ContactRow contact={item} isSelected={item.id === contactSelected.id} onSelect={(contact) => setContactSelected(contact)} />);
 
   return (
     <div style={styles.mainContainer}>

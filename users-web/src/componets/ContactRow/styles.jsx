@@ -23,6 +23,16 @@ const styles = {
     fontSize: '1.1em',
     marginLeft: '10px',
   },
+  selected: {
+    minWidth: '200px',
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  border: '1px solid #E3E3E3',
+  padding: '10px',
+  borderRadius: '5px',
+    backgroundColor: '#E3E3E3',
+  },
 };
 
 export default styles;
