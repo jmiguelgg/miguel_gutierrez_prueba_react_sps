@@ -21,6 +21,9 @@ const styles = {
   contactList: {
     width: '60%',
   },
+  computerCrash: {
+    width: '300px',
+  },
 };
 
 export default styles;
