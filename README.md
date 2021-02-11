@@ -1,0 +1,3 @@
+## Prueba técnica SPSolutions
+
+Ésta prueba técnica consiste en varias partes, la primera es un cuestionario que se encuentra en la raís del directorio con el nombre Cuestionario.pdf, la segunda es la elaboración de un proyecto en ReactJs así mismo en React Native, haciendo consuslta del mismo endpoint (API rest) para desplegar la información expuesta por éste medio. Por último también se encuientra dentro del directorio raíz del proyecto un archvio de documentación de los proyectos llamdo Documentación.pdf
