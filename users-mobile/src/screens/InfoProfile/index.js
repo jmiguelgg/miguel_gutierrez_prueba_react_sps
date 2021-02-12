@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const InfoProfile = () => {
+const InfoProfile = ({ navigation }) => {
   return (
     <View>
       <Text>

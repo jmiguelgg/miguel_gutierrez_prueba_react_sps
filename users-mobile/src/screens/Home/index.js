@@ -1,15 +1,10 @@
-import React from 'react';
-import { Text, View, Button } from 'react-native';
+import React, { useEffect } from 'react';
+import { Text, View, FlatList } from 'react-native';
 
 const Home = ({ navigation }) => {
   return (
-    
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
-      <Button
-        title="Perfil"
-        onPress={() => navigation.navigate('Perfil')}
-      />
+    <View>
+      <Text>Lista de contactos</Text>
     </View>
   );
 };
