@@ -12,7 +12,7 @@ const NavigatorRoot = () => {
   const Stack = createStackNavigator();
   
   useEffect(() => {
-    const timer = setTimeout(() => { setShowSplash(false) }, 3000);
+    const timer = setTimeout(() => { setShowSplash(false) }, 2500);
     return () => clearTimeout(timer);
   }, []);
 

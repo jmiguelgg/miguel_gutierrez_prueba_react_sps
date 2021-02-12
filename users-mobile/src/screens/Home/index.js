@@ -16,7 +16,7 @@ const Home = ({ navigation }) => {
       <FlatList
         data={contacts}
         keyExtractor={(item) => item.id}
-        renderItem={({ item }) => <ContactRow contact={item} onSelect={(contact) => navigation.navigate('Perfil',contact)} />}
+        renderItem={({ item }) => <ContactRow contact={item} onSelect={(contact) => navigation.navigate('Perfil',{ contact: contact })} />}
       />
     </View>
   );
